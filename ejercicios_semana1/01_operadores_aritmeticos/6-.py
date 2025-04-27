@@ -6,4 +6,4 @@ Pide al usuario dos números y muestra el resultado de dividir el primero entre 
 primerNumero = int(input("Ingrese el primer número: "))
 segundoNumero = int(input("Ingrese el segundo número: "))
 
-print(primerNumero," / ",segundoNumero," = ",primerNumero/segundoNumero)
+print(primerNumero,"/",segundoNumero,"=",primerNumero/segundoNumero)

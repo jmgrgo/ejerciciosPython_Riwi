@@ -1,16 +1,10 @@
 '''
-### 16. Ambos mayores que 10  
-Pide dos números y muestra si ambos son mayores que 10 (usar `and`).
+Pide una temperatura y muestra si no es inferior a 0 ni superior a 35.
 '''
 
-primerNumero = int(input("Ingrese el primer número: "))
-segundoNumero = int(input("Ingrese el segundo número: "))
+temperatura = float(input("Ingrese la temperatura: "))
 
-if primerNumero > 10 and segundoNumero > 10:
-    print("Ambos números son mayores que 10.")
-elif primerNumero > 10:
-    print("Sólo el primer número es mayor a 10.")
-elif segundoNumero > 10:
-    print("Sólo el segundo número es mayor a 10.")
-elif primerNumero <= 10 and segundoNumero <= 10:
-    print("Ambos números son menores a 10.") 
+if temperatura > 0 and temperatura <= 35:
+    print("La temperatura ingresada no es inferior a 0 ni superior a 35.")
+else:
+    print("La temperatura ingresada es inferior a 0 u superior a 35.")

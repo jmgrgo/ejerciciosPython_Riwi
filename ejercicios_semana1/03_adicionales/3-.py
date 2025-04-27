@@ -15,4 +15,4 @@ Ejemplo de salida:
 sueldoBruto = int(input("Ingrese su sueldo bruto: "))
 porcentajeDescuento = float(input("Ingrese el porcentaje de descuento: "))
 
-print("Sueldo bruto:",sueldoBruto," "*5,"Descuento: ",porcentajeDescuento,"%"," "*5, "Sueldo neto:",sueldoBruto - (sueldoBruto * porcentajeDescuento / 100))
+print("Sueldo bruto:",sueldoBruto," "*5,"Descuento:",porcentajeDescuento,"%"," "*5, "Sueldo neto:",sueldoBruto - (sueldoBruto * porcentajeDescuento / 100))

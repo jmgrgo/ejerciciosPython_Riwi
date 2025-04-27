@@ -16,7 +16,7 @@ Ejemplo:
 
 kilometros = int(input("Ingrese una cantidad de kilometros: "))
 
-print(kilometros,"km =",kilometros*1000,"metros,",kilometros*100000,"cm,",kilometros*1000000,"mm.")
+print(kilometros,"km =",kilometros*1000,"metros,",kilometros*100000,"centímetros,",kilometros*1000000,"milímetros.")
 
 
 

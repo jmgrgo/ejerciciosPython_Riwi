@@ -4,7 +4,7 @@ Pide estatura (cm) y edad. Muestra si puede ingresar: estatura > 140 y edad entr
 '''
 
 estatura = int(input("Ingrese su estatura en cm: "))
-edad = int(input("Ingrese su edad."))
+edad = int(input("Ingrese su edad: "))
 
 if estatura > 140 and (edad >= 10 and edad <= 60):
     print("Puede ingresar al parque tematico.")

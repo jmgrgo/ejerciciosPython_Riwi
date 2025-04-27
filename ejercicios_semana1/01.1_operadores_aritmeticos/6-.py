@@ -2,7 +2,6 @@
 ### 6. Cálculo de propina y cuenta total
 Pide el costo de una comida y calcula el 10%, 15% y 20% de propina. Muestra el total a pagar en cada caso.
 '''
-
 costoComida = int(input("Ingrese el costo total de la comida: "))
 
 montoFinal = costoComida + (costoComida * (10/100))

@@ -7,4 +7,4 @@ calificacion = float(input("Ingrese una calificación: "))
 if calificacion >= 0 and calificacion <= 10:
     print("Es una calificación válida.")
 else:
-    print("Es una calificación inválida")
+    print("Es una calificación inválida.")

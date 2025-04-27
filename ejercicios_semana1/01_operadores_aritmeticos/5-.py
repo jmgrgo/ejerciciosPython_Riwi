@@ -6,4 +6,4 @@ Pide al usuario una palabra y un número entero. Muestra la palabra repetida ese
 palabra = input("Ingrese la palabra: ")
 numero = int(input("Ingrese el número de veces: "))
 
-print(palabra*numero," - ")
+print(palabra*numero)

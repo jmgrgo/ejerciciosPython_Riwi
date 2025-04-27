@@ -1,10 +1,10 @@
 '''
-### 8. División entera y módulo  
-Pide al usuario dos números y muestra la división entera (`//`) y el módulo (`%`) entre ellos.
+Pide un número y muestra si no está entre 10 y 20 (inclusive).
 '''
 
-primerNumero = float(input("Ingrese el primer número: "))
-segundoNumero = float(input("Ingrese el segundo número: "))
+numeroIngresado = int(input("Ingrese un número: "))
 
-print(primerNumero," // ",segundoNumero," = ",primerNumero//segundoNumero)
-print(primerNumero," % ",segundoNumero," = ",primerNumero%segundoNumero)
+if numeroIngresado >= 10 and numeroIngresado <=20:
+    print("El número ingresado está dentro del rango. (10 - 20)")
+else:
+    print("El número ingresado no está dentro del rango.") 
